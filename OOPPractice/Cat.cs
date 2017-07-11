@@ -8,5 +8,14 @@ namespace OOPPractice
 {
     class Cat
     {
+        /*Inside namespace we create the blueprint for our object
+         * Classes are templates 
+         * 
+         * 
+         * 
+         * 
+         *
+         *
+         */
     }
 }
