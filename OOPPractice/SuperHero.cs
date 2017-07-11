@@ -64,7 +64,7 @@ namespace OOPPractice
             this.power = powerSH;
             this.hasCape = hasCapeSH;
         }
-        public SuperHero(string nameSH, int strengthLevelSH)
+        public SuperHero(string nameSH)
         {
             this.name = nameSH;
             this.strengthLevel = 100;
@@ -73,6 +73,20 @@ namespace OOPPractice
 
         //Methods
 
+        public void BattleNemesis()
+        {
+            this.StrenghtLevel -= 10;//changing the values using set/get select the wrench for all these
+            this.HasCape = false;
+            this.Costume = "tattered";
+        }
 
+        public void AllyGame()
+        {
+            this.StrenghtLevel += 10;
+            this.HasCape = false;
+            Console.WriteLine("Thank you for being a friend");
+            
+        }
+        
     }
 }

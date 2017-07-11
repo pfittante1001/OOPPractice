@@ -22,17 +22,33 @@ namespace OOPPractice
             //              house       hasDoors hasWindows hasFloors heated        Heats() Cools() Protects()
             //              pool        hasWater hasSides isHeated                  Cools() Wets() 
             //              cig         hasFilter hasPaper hasTobacco               Kills() Burns() Satisfies()
-            Cat mittens = new Cat();
+            //Cat mittens = new Cat();
             //mittens.Age = 25; //this uses the set command in public int Age() property
             //mittens.Name = "Pete";//this uses the set command in public string Name() property
             //int age1 = mittens.Age;
             //string name1 = mittens.Name;
 
             //Cat secondCat = new Cat("Oz", 3, "Orange and White");
-            Dog firstDog = new Dog(1 , "brown", "hazel", true);
-            Console.WriteLine("{0} {1} {2} {3}", firstDog.Age, firstDog.FurColor, firstDog.EyeColor, firstDog.IsBite);
-            firstDog.DogAge();
-            Console.WriteLine("{0} {1} {2} {3}", firstDog.Age, firstDog.FurColor, firstDog.EyeColor, firstDog.IsBite);
+            //Dog firstDog = new Dog(1 , "brown", "hazel", true);
+            //Console.WriteLine("{0} {1} {2} {3}", firstDog.Age, firstDog.FurColor, firstDog.EyeColor, firstDog.IsBite);
+
+            //SuperHero firstHero = new SuperHero();
+            //firstHero.StrenghtLevel = 100;
+            //firstHero.HasCape = true;
+            //firstHero.BattleNemesis();//calls BattleNemesis method
+            //Console.WriteLine(firstHero.HasCape);
+            //Console.WriteLine(firstHero.StrenghtLevel);
+
+            //firstHero.BattleNemesis();
+            //Console.WriteLine(firstHero.HasCape);
+            //Console.WriteLine(firstHero.StrenghtLevel);
+            SuperHero secondHero = new SuperHero("diamond dan");
+            Console.WriteLine("{0} {1} ",secondHero.Name,secondHero.StrenghtLevel);
+
+            secondHero.AllyGame();
+            Console.WriteLine(secondHero.StrenghtLevel);
+
+
 
         }
     }
