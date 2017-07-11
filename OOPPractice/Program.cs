@@ -45,6 +45,7 @@ namespace OOPPractice
             SuperHero secondHero = new SuperHero("diamond dan");
             Console.WriteLine("{0} {1} ",secondHero.Name,secondHero.StrenghtLevel);
 
+            secondHero.BattleNemesis();
             secondHero.AllyGame();
             Console.WriteLine(secondHero.StrenghtLevel);
 

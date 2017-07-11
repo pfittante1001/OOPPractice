@@ -84,6 +84,7 @@ namespace OOPPractice
         {
             this.StrenghtLevel += 10;
             this.HasCape = false;
+            Console.WriteLine(this.Costume);//took value from this.costume after calling secondHero.BattleNemesis
             Console.WriteLine("Thank you for being a friend");
             
         }
