@@ -10,7 +10,7 @@ namespace OOPPractice
     {
         static void Main(string[] args)
         {
-            
+
             //When we initialize a new object it is call instantiated and must be instantiated before it can be used
             //All object of a specific type are created from the same template or class
             //All objects from a class will have the same number of states but each instance can have it own unique values
@@ -22,6 +22,17 @@ namespace OOPPractice
             //              house       hasDoors hasWindows hasFloors heated        Heats() Cools() Protects()
             //              pool        hasWater hasSides isHeated                  Cools() Wets() 
             //              cig         hasFilter hasPaper hasTobacco               Kills() Burns() Satisfies()
+            Cat mittens = new Cat();
+            //mittens.Age = 25; //this uses the set command in public int Age() property
+            //mittens.Name = "Pete";//this uses the set command in public string Name() property
+            //int age1 = mittens.Age;
+            //string name1 = mittens.Name;
+
+            //Cat secondCat = new Cat("Oz", 3, "Orange and White");
+            Dog firstDog = new Dog(1 , "brown", "hazel", true);
+            Console.WriteLine("{0} {1} {2} {3}", firstDog.Age, firstDog.FurColor, firstDog.EyeColor, firstDog.IsBite);
+            firstDog.DogAge();
+            Console.WriteLine("{0} {1} {2} {3}", firstDog.Age, firstDog.FurColor, firstDog.EyeColor, firstDog.IsBite);
 
         }
     }
